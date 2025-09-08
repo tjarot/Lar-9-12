@@ -1,0 +1,26 @@
+/* Judul gradient */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ffb027; /* fallback */
+    background: linear-gradient(135deg, #ffb027, #ff8800);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Tombol */
+button.btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+button.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
